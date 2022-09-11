@@ -1,0 +1,39 @@
+{
+  "name": "next-oskarijarvelin-mui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oskarijarvelin/next-oskarijarvelin-mui.git"
+  },
+  "author": "Oskari Järvelin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oskarijarvelin/next-oskarijarvelin-mui/issues"
+  },
+  "homepage": "https://github.com/oskarijarvelin/next-oskarijarvelin-mui#readme",
+  "dependencies": {
+    "@emotion/cache": "^11.10.3",
+    "@emotion/react": "^11.10.4",
+    "@emotion/server": "^11.10.0",
+    "@emotion/styled": "^11.10.4",
+    "@fontsource/roboto": "^4.5.8",
+    "@fontsource/roboto-condensed": "^4.5.9",
+    "@mui/material": "^5.10.4",
+    "next": "^12.3.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "8.23.0",
+    "eslint-config-next": "12.3.0"
+  }
+}
